@@ -24,6 +24,10 @@
 }
 
 /* YOUR CUSTOM STYLES */
+.blue-skin navbar{
+    background: #33b5e5 !important;
+
+}
 .description{
 	color: white;
 	text-align: center;
@@ -43,6 +47,7 @@
 .modal-footer a{
     color: #4285F4 !important;
 }
+
 @media only screen and (max-width: 768px) {
     .full-bg-img, .view .content, .view .mask{
         overflow: visible !important;
@@ -51,3 +56,4 @@
         overflow: visible !important;
     }
 }
+
