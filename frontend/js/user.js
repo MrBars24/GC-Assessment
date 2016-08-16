@@ -5,5 +5,9 @@ $(document).ready(function(){
 			$(this).text($(this).text().substring(0,120) + '...');
 		}
 	});
+	$('#filterModal').modal({
+		show:false,
+		backdrop:'static'
+	});
 	$('.mdb-select').material_select();
 });
