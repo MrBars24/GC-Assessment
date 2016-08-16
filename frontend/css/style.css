@@ -47,7 +47,28 @@
 .modal-footer a{
     color: #4285F4 !important;
 }
-
+.post-card hr{ margin: 10px 10px; }
+.custom-filter-modal .modal-header{
+    padding: 0px;
+    border:none;
+}
+.custom-filter-modal .modal-header ul.nav-tabs{
+    padding: 0px;
+    margin: 0px;
+    box-shadow: none;
+    transition: all 0s;
+}
+.custom-filter-modal .modal-header ul.nav-tabs .nav-link{
+    color: #757575;
+}
+.custom-filter-modal .modal-header ul.nav-tabs .nav-link.active{
+    background: transparent;
+    border-bottom: 2px solid #1976D2;
+    color: #1976D2;
+}
+.custom-filter-modal .modal-header ul.nav-tabs .nav-link.active:hover{
+    transition: all 0s;
+}
 @media only screen and (max-width: 768px) {
     .full-bg-img, .view .content, .view .mask{
         overflow: visible !important;
@@ -56,11 +77,10 @@
         overflow: visible !important;
     }
     .post-card{
-        height: 230px;
+        height: 220px;
         margin:0 auto;
         padding:0 auto;
         box-shadow: none;
-        border-bottom: 1px solid rgba(0,0,0,0.2);
     }
     .post-card img{
         max-width: 100px;
@@ -77,12 +97,15 @@
         display: block;
     }
     .post-card p{
-        padding:10px 20px 20px 20px;
+        padding:10px 20px 0px 20px;
+    }
+    .post-card a{
+        margin-left: 0px;
     }
 }
 @media only screen and (min-width: 768px){
     .post-card{
-        height: 250px;
+        height: 220px;
     }
     .post-card img{
         max-width: 100px;
@@ -99,16 +122,18 @@
         display: block;
     }
     .post-card p{
-        padding:10px 20px 20px 20px;
+        padding:10px 20px 0px 20px;
+    }
+    .post-card a{
+        margin-left: 0px;
     }
 }
 @media only screen and (max-width: 992px){
     .post-card{
-        height: 230px;
+        height: 220px;
         margin:0 auto;
         padding:0 auto;
         box-shadow: none;
-        border-bottom: 1px solid rgba(0,0,0,0.2);
     }
     .post-card img{
         max-width: 100px;
@@ -125,6 +150,9 @@
         display: block;
     }
     .post-card p{
-        padding:10px 20px 20px 20px;
+        padding:10px 20px 0px 20px;
+    }
+    .post-card a{
+        margin-left: 0px;
     }
 }
