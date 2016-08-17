@@ -69,6 +69,10 @@
 .custom-filter-modal .modal-header ul.nav-tabs .nav-link.active:hover{
     transition: all 0s;
 }
+i > #btn-login{
+    padding:0;
+    text-decoration: none;
+}
 @media only screen and (max-width: 768px) {
     .full-bg-img, .view .content, .view .mask{
         overflow: visible !important;
